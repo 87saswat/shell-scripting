@@ -8,4 +8,4 @@ echo Line-2
 echo Line-3
 
 # multiple line continues (-e is Enable)
-echo -e Line-1\nLine-2\nLine-2
+echo -e "Line-1\nLine-2\nLine-2"
