@@ -8,4 +8,4 @@ echo Line-2
 echo Line-3
 
 # multiple line continues
-echo Line-1\n Line-2\nLine-2
+echo Line-1/n Line-2/nLine-2
