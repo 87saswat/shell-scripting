@@ -20,8 +20,8 @@ echo Total number of registered users in this system is $NUMBER_OF_USERS
 
 #SPECIAL VARIABLES
 
-# $0 to $9
+# $0 to $9 ---> varibales where the values can be supplied from the command line
 # $! $@ $? $# $* 
 
 echo $0 #--> script name
-echo $1 #-->
+echo My name is $1, Age $2, Location $3
