@@ -2,5 +2,8 @@
 
 a=10
 b="sham"
-c="scripting
+c="scripting"
 
+echo "Value of a is $a"
+
+echo stop
