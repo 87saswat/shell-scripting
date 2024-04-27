@@ -25,3 +25,10 @@ echo Total number of registered users in this system is $NUMBER_OF_USERS
 
 echo $0 #--> script name
 echo My name is $1, Age $2, Location $3
+
+echo $*
+echo $@
+
+#both $* and $# does the same thing.. print the variable used in the script
+
+
