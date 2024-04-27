@@ -21,7 +21,7 @@ echo Total number of registered users in this system is $NUMBER_OF_USERS
 #SPECIAL VARIABLES
 
 # $0 to $9 ---> varibales where the values can be supplied from the command line
-# $! $@ $? $# $* 
+# $! $@ $? $# $*  $$
 
 echo $0 #--> script name
 echo My name is $1, Age $2, Location $3
@@ -29,6 +29,11 @@ echo My name is $1, Age $2, Location $3
 echo $*
 echo $@
 
-#both $* and $# does the same thing.. print the variable used in the script
+#both $* and $# does the same thing.. print the variable supplied from commandline in the script
+
+echo printing $$  # Gives the process id of the script
+echo printing $#  # print the number of arguments
+echo printing $? # print exit code
+
 
 
