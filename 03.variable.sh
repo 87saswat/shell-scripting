@@ -22,3 +22,6 @@ echo Total number of registered users in this system is $NUMBER_OF_USERS
 
 # $0 to $9
 # $! $@ $? $# $* 
+
+echo $0 #--> script name
+echo $1 #-->
