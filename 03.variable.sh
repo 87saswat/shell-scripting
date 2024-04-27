@@ -17,3 +17,8 @@ echo Todays date is $TODAYS_DATE
 NUMBER_OF_USERS=$(cat /etc/passwd | wc -l)
 
 echo Total number of registered users in this system is $NUMBER_OF_USERS
+
+#SPECIAL VARIABLES
+
+# $0 to $9
+# $! $@ $? $# $* 
