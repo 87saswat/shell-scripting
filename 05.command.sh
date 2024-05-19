@@ -17,3 +17,12 @@ sample() {
 # calling the function
 
 sample
+
+# decalrae another function
+
+staus() {
+    echo -e "Good morning, todays date is \e[32m $(date +%F) \e[0m"
+    echo -e "Number of opend sessions: \e[32m $(who | wc -l) \e[0m"
+
+}
+
